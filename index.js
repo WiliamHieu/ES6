@@ -1,4 +1,4 @@
-// var -> function (dont need)
+// var -> function (dont need)\
 // let ->block
 // const -> block
 
@@ -28,5 +28,5 @@
 //     return number * number;
 // }
 
-const square = number => number * number;
-console.log(square(5));
+// const square = number => number * number;
+// console.log(square(5));\
