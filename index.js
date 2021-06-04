@@ -28,5 +28,16 @@
 //     return number * number;
 // }
 
+const job = [
+    {id:1, isActive: true},
+    {id:2, isActive: true},
+    {id:3, isActive: false}
+]
+
+const activejob = job.filter(function(job){ return job.isActive; })
+const activejob = job.filter(job => job.isActive)
+
+
 // const square = number => number * number;
 // console.log(square(5));\
+
