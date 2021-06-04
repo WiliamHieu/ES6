@@ -42,17 +42,17 @@
 // console.log(square(5));\
 
 
-// //Call back is stand-online object
-// const person = {
-//     talk() {
-//         //No close brace this ketword, this is not reset instead 
-//         //it in herites context that you defined (slef = this)
-//         var self = this;
-//         setTimeout(() => {
-//             console.log('self', self)
-//         }, 1000);
-//     }
-// }
+//Call back is stand-online object
+const person = {
+    talk() {
+        //No close brace this ketword, this is not reset instead 
+        //it in herites context that you defined (slef = this)
+        var self = this;
+        setTimeout(() => {
+            console.log('self', self)
+        }, 1000);
+    }
+}
 
 // person.talk();
 
